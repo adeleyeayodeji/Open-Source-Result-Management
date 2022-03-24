@@ -1,0 +1,24 @@
+@media print {
+ 	 a[href*='//']:after {
+        content:" (" attr(href) ") ";
+        color: $primary;
+    }
+
+    a:after {
+        content:" (" attr(href) ") ";
+        color: $primary;
+    }
+    .printing{
+    	display: block !important;
+    }
+    .printindis{
+    	display: none !important;
+    }
+}
+
+@page {
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}

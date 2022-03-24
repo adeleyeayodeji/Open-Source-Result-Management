@@ -1,0 +1,194 @@
+body {
+  background: #f1f1f1;
+}
+.ui.header {
+  color: #fff;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.header {
+  text-align: center;
+}
+.desc {
+  color: #ddd;
+  margin-bottom: 2em;
+  text-align: center;
+  margin-top: 2em;
+}
+.desc a {
+  color: #ddd;
+  font-weight: bold;
+}
+.desc a:hover {
+  color: #0084bf;
+  background: #d4d4d5;
+  font-weight: bold;
+}
+input[type="file"] {
+  display: none;
+  text-align: center;
+  cursor: pointer;
+}
+custom-file-upload {
+  text-align: center;
+  cursor: pointer;
+}
+center {
+  cursor: pointer;
+}
+.container {
+  padding: 2em 0;
+}
+.ui.card {
+  width: 100%;
+}
+.content-result {
+  min-height: 330px;
+}
+.result .placeholder {
+  padding-top: 100px;
+  font-size: 30px;
+  line-height: 1;
+  color: gray;
+  text-align: center;
+}
+.result .placeholder span {
+  font-size: 15px;
+}
+.result .status {
+  margin-top: 5px;
+}
+.result progress {
+  width: 100%;
+}
+.result .ui.message {
+  margin-top: 2rem;
+}
+.result .ui.message pre {
+  white-space: pre-wrap;
+}
+.sitedesciption.footer {
+  margin-top: 15px;
+  text-align: center;
+  padding: 20px;
+}
+div.content.extra:hover {
+  background: #f1f1f1;
+}
+p.adminlogin {
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  text-align: center;
+  background: white;
+  color: black;
+  margin-top: 15px;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 130px;
+}
+a.adminlink {
+  text-decoration: none;
+  background: white;
+  color: #0084bf;
+}
+a.logo {
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  text-align: center;
+  background: white;
+  color: black;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 200px;
+  padding-top: 70px;
+}
+a.logoadmin {
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  text-align: center;
+  background: white;
+  color: black;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100%;
+}
+a.logo img {
+  height: auto;
+  width: 100%;
+}
+.sitedesciption {
+  padding: 20px;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin-right: auto;
+  margin-left: auto;
+  width: 96%;
+  text-align: center;
+  background: #fff;
+  color: black;
+  margin-left: -14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: calibri;
+}
+
+.sitedesciption.ads {
+  width: 92%;
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.ui.header.custom {
+  margin-bottom: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea {
+  width: 100%;
+  outline: none;
+  height: auto;
+  border: none;
+}
+.sitedesciption.editor h3 {
+  color: black;
+}
+.ui.button.logo {
+  margin-bottom: 15px;
+}
+.message {
+  color: white;
+  background: green;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.messageerror {
+  color: red;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.credit {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: white;
+}
