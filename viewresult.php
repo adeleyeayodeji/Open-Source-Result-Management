@@ -137,11 +137,11 @@ foreach($resultss as $row)
 
                     <!-- /.row -->
                 </div>
-                <!-- /.container-fluid -->
+                <!-- /.container-fluid --
 
                 <section class="section print_p">
-                    <div class="container-fluid">
-                        <div class="row">
+                   <div class="container-fluid">
+                       <div class="row">
                             <div class="col-md-8 col-md-offset-2">
                                 <div class="panel print_p">
                                     <div class="panel-heading print_p">
@@ -149,6 +149,7 @@ foreach($resultss as $row)
 
                                             <?php
                                     // code Student Data
+                                    // code of student data 
                                     $rollid=$_POST['studentid'];
                                     $classid=$_POST['class'];
                                     $_SESSION['rollid']=$rollid;
