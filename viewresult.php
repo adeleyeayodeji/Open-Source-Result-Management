@@ -646,11 +646,9 @@ $admins = $adminresult->session;
 <script src="js/main.js"></script>
 <script>
     $(function($) {
-        var name = $("#studentnameid").text();
-        var data = name.replace(/\s{2,}/g, ' ');
-        var className = $("#classname").text();
-        var classsub = className.replace(/\s{2,}/g, ' ');
-        document.title = data + " :: " + classsub;
+        const name = $("#studentnameid").text().trim().replace(/\s{2,}/g, ' ');
+        const className = $("#classname").text().trim().replace(/\s{2,}/g, ' ');
+        document.title = `${name} :: ${className}`;
     });
 </script>
 
