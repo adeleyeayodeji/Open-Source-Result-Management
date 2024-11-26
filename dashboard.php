@@ -36,7 +36,7 @@ if(strlen($_SESSION['alogin'])=="")
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <a class="dashboard-stat bg-primary" href="manage-students.php">
                                 <?php 
-if (isset($_SESSION["teacher"])) {
+if (isset($_SESSION["teacher"]) && !empty($_SESSION["teacher"])) {
     $tcid = $_SESSION["teachercid"];
     $sql1 ="SELECT StudentId from tblstudents WHERE ClassId = '$tcid' ";
 }else{
@@ -121,7 +121,7 @@ $tbldepartments=$query->rowCount();
                                 <?php 
 $admint = $adminresult->term;
 $admins = $adminresult->session;
-if (isset($_SESSION["teacher"])) {
+if (isset($_SESSION["teacher"]) && !empty($_SESSION["teacher"])) {
     $tcid = $_SESSION["teachercid"];
     $sql3="SELECT  distinct StudentId from  tblresult WHERE ClassId = '$tcid' AND term = '$admint' AND year = '$admins' ";
 }else{
